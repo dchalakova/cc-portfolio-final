@@ -1,0 +1,11 @@
+AUTHOR: Diana Chalakova
+
+DESIGN PROCESS:
+Initially, I wanted to make a ball that would bounce with the movement with the user's mouse, becoming flattened at the ground and circular in the air, and changing to a random color either at the user's click or when it hits the "ground". However, although I got the ground boundary, I really struggled with the sky boundary and keeping the ball from warping when the user's mouse went past the boundary. 
+
+I decided to scrap it and go a different direction by playing around with applying random() to multiple things in my design. I wanted the circles to be synchronized and dynamic, but also to stand out from the background. I was getting bored of all the background colors I chose, so I figured why not make the background ALSO random. Honestly that took some time for some reason to figure out how to make the background random, but once I did it was smooth sailing for applying that to the rest of my random() code.
+
+I decided to not make the eyes and mouth warp with the circles so it could always be a sort of cartoony face. I feel like there MUST be a function I could make to make the code loop to create them though instead of copy-pasting so much.... 
+
+REFLECTIONS ON FORM:
+I wanted the faces to not be straight-forward, so I made them looking to the side, and since they were circular, I thought it would be nice to make their arrangement linear. I feel like the form of both these things (the circles as well as their organization) complemented each other nicely. As people, we love circular objects - hence why all the villains in the animated movies you may have watched growing up (like Disney for example) all have sharp corners. I wanted my faces to feel pleasant for the viewer to look at and play around with - some of the random color combinations themselves can be unpleasant at times, so I did not want to add any more unpleasantness to our brain's experience of the design.

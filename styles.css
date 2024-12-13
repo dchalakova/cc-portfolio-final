@@ -31,33 +31,26 @@ body {
     color: rgb(74, 34, 5)
 }
 
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.project-card {
+/* .project-card {
     border: 1px solid #3e1e07;
     padding: 15px;
     border-radius: 8px;
     position: relative;
     min-height: 400px;
-}
+} */
 
-.project-card div[id^="sketch-container-"] {
+/* .project-card div[id^="sketch-container-"] {
     width: 100%;
     height: 300px;
-}
+} */
 
-.project-link {
+/* .project-link {
     text-decoration: none;
     color: inherit;
     display: block;
     height: 100%;
     position: relative;
-}
+} */
 
 .project-link:hover {
     cursor: pointer;
@@ -67,11 +60,6 @@ body {
     width: 100%;
     height: 300px;
     border: none;
-}
-
-.right-side-text {
-    text-align: right;
-    padding: 20px;
 }
 
 a.logo {
@@ -99,21 +87,6 @@ img {
     margin: 0 auto;
 }
 
-.project-container iframe {
-    width: 100%;
-    height: 600px;
-    border: none;
-    display: block;
-}
-
-.project-page-layout {
-    display: flex;
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-}
-
 .sketch-holder {
     width: 100%;
     height: 300px;
@@ -122,24 +95,17 @@ img {
     align-items: center;
 }
 
+/* 
 .project-card canvas {
     max-width: 100% !important;
     height: auto !important;
     display: block;
     margin: 0 auto;
-}
+} */
 
 .sketch-holder canvas {
     max-width: 100% !important;
     height: auto !important;
-}
-
-.project-container {
-    flex: 0 0 500px;
-}
-
-.project-description {
-    flex: 1;
 }
 
 .projects-grid {
